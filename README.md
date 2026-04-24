@@ -4,13 +4,13 @@ This repository adapts the **SPECTRE-Plex** pipeline (Anderson et al., 2025, *Co
 
 ---
 
-## Reference figure (source: Anderson et al.)
+## Reference figure 
 
 <p align="center">
   <img src="figures/multi.png" alt="SPECTRE-Plex reference figure" width="85%"/>
 </p>
 
-<p align="center"><em>Reference figure adapted from Anderson et al., Communications Biology 8:636 (2025), showing the kind of tiled, stitched, multiplexed immunofluorescence imaging that the SPECTRE-Plex pipeline produces.</em></p>
+<p align="center"><em>Reference figure adapted (20250820_A9T002_AColon3d_Section4_valis_merged (1, x=9091, y=19366, w=8204, h=6578).tif), showing the kind of tiled, stitched, multiplexed immunofluorescence imaging that the SPECTRE-Plex pipeline produces.</em></p>
 
 ---
 
