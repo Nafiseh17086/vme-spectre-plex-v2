@@ -2,6 +2,18 @@
 
 This repository adapts the **SPECTRE-Plex** pipeline (Anderson et al., 2025, *Communications Biology*; [mdanderson03/SpectrePlex](https://github.com/mdanderson03/SpectrePlex)) for the **viral microenvironment (VME)** study of SIV persistent reservoirs in gut-associated lymphoid tissue (GALT) described in *VME_GutReservoirs_ST_manuscript_Final*.
 
+
+## Reference figure
+
+<p align="center">
+  <img src="figures/multi.png" alt="SPECTRE-Plex multiplex imaging reference figure" width="85%"/>
+</p>
+
+<p align="center"><em>Reference figure adapted from Anderson et al., Communications Biology 8:636 (2025).</em></p>
+
+---
+
+
 The original SPECTRE-Plex pipeline was developed for the **healthy vs. celiac duodenum** comparison. Here we keep the core image-processing mechanics (focus scoring, BaSiC flat-field correction, bleach-stack subtraction via PyStackReg, McMicro/Ashlar stitching, Cellpose cyto3 segmentation, DBSCAN/HDBSCAN/KNN spatial analysis) but re-target the biology to **LAEA (late ART, persistent reservoir) vs. EAEA (early ART, transient reservoir)** macaque gut tissues, with a panel optimized for the VME features identified in the manuscript (SIV Gag, p-eIF2α, FoxP3+ Treg, CD117+ mast cells, BSG/CD147, CA2/CA12, ATF4).
 
 ## Why adapt SPECTRE-Plex?
