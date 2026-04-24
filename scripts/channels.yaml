@@ -1,0 +1,41 @@
+# channels.yaml
+# -------------
+# Maps channel index (in the stitched OME-TIFF) to marker name.
+# Edit to match the antibody panel for each run.
+#
+# Boundary segmentation uses: NaKATPase, EpCAM, PanCK
+# Nuclear segmentation uses:  DAPI
+# VME category is driven by:  SIVGag
+#
+# The VME-specific panel below is suggested based on the manuscript's
+# machine-learning hits (BSG/CD147, CA2, CA12, ATF4) and the Treg / mast /
+# ILC immune architecture described for LAEA (persistent) reservoirs.
+
+0: DAPI
+1: NaKATPase
+2: EpCAM
+3: PanCK
+
+# Viral / stress markers
+4: SIVGag
+5: p-eIF2a
+6: ATF4
+
+# T-cell lineages
+7: CD3
+8: CD4
+9: CD8
+10: FoxP3
+
+# Innate immunity
+11: CD117    # mast cells
+12: CD68     # myeloid / macrophages
+
+# B-cell lineage
+13: CD20
+14: CD138
+
+# VME-specific / tumor-microenvironment-like markers
+15: BSG      # CD147 — top regressor for persistent reservoirs
+16: CA2      # carbonic anhydrase, hypoxia
+17: CA12     # carbonic anhydrase, hypoxia

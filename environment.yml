@@ -1,0 +1,27 @@
+name: vme-spectre
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-image
+  - opencv
+  - tifffile
+  - pyyaml
+  - r-base>=4.2
+  - r-optparse
+  - r-readr
+  - r-tidyverse
+  - r-ggplot2
+  - r-viridis
+  - r-dbscan
+  - r-umap
+  - r-nabor
+  - pip
+  - pip:
+      - basicpy
+      - pystackreg
+      - cellpose>=3.0.7
